@@ -2,6 +2,7 @@ package ru.sberbank.avatar.reports;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.BasicStroke;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -30,10 +31,11 @@ import org.jfree.data.general.PieDataset;
 /** Applies shared blue colors and chart labels across JasperReports/JFreeChart versions. */
 public final class AnalyticsChartCustomizer extends JRAbstractChartCustomizer {
     private static final Color[] BLUE = {
-        Color.decode("#1557A0"), Color.decode("#2878B8"), Color.decode("#4A98D2"),
-        Color.decode("#83B7E2"), Color.decode("#C3DDF1")
+        Color.decode("#2878B8"), Color.decode("#236DAB"), Color.decode("#1F639D"),
+        Color.decode("#195990"), Color.decode("#124F84")
     };
-    private static final Color GRID = Color.decode("#DCE6EF");
+    private static final Color[] PIE_BLUE = BLUE;
+    private static final Color GRID = Color.decode("#AAB8C4");
     private static final Color LABEL = Color.decode("#52616E");
 
     @Override
@@ -50,18 +52,28 @@ public final class AnalyticsChartCustomizer extends JRAbstractChartCustomizer {
     private void customizePie(PiePlot plot) {
         PieDataset dataset = plot.getDataset();
         for (int index = 0; index < dataset.getItemCount(); index++) {
-            plot.setSectionPaint(dataset.getKey(index), BLUE[index % BLUE.length]);
+            plot.setSectionPaint(dataset.getKey(index), PIE_BLUE[index % PIE_BLUE.length]);
         }
         plot.setBackgroundPaint(Color.WHITE);
         plot.setOutlineVisible(false);
-        plot.setLabelPaint(LABEL);
-        plot.setLabelBackgroundPaint(new Color(255, 255, 255, 220));
-        plot.setLabelFont(new Font("Arial", Font.PLAIN, 9));
+        plot.setSectionOutlinesVisible(true);
+        plot.setSectionOutlinePaint(Color.WHITE);
+        plot.setSectionOutlineStroke(new BasicStroke(1.5f));
+        plot.setShadowPaint(null);
+        plot.setShadowXOffset(0.0);
+        plot.setShadowYOffset(0.0);
+        plot.setSimpleLabels(true);
+        plot.setLabelPaint(Color.WHITE);
+        plot.setLabelBackgroundPaint(null);
+        plot.setLabelOutlinePaint(null);
+        plot.setLabelShadowPaint(null);
+        plot.setLabelFont(new Font("Arial", Font.BOLD, 10));
     }
 
     private void customizeCategory(CategoryPlot plot) {
         plot.setBackgroundPaint(Color.WHITE);
         plot.setRangeGridlinePaint(GRID);
+        plot.setRangeGridlineStroke(new BasicStroke(1.0f));
         plot.setOutlineVisible(false);
         CategoryDataset dataset = plot.getDataset();
         CategoryItemRenderer renderer = plot.getRenderer();
