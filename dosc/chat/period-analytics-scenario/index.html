@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мастерская · аналитическая презентация</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="workbench.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="prototype.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="page-head">
+    <div>
+      <p class="eyebrow">DIALOG / ОБСУЖДЕНИЕ МАКЕТА</p>
+      <h1>Аналитическая презентация</h1>
+    </div>
+    <div class="header-actions">
+      <button id="export" type="button">Вариант JSON</button>
+      <button id="export-text" type="button">Текстовый вид</button>
+      <button id="import" type="button">Загрузить вариант</button>
+      <input id="import-file" type="file" accept=".json,application/json" hidden>
+      <button id="reset" type="button">Сбросить сценарий</button>
+    </div>
+  </header>
+
+  <div class="brief">Прежний макет и отдельное предложение для обсуждения. Данные синтетические; кнопки запускают только демонстрационные переходы.</div>
+
+  <details class="sdk-constraints">
+    <summary>Ограничения СберЧата · message.text 4096 / title 128 / description 256 · UTF-16</summary>
+    <p><strong>30 групп</strong> — подтверждённый предел. Граница <strong>30 кнопок в группе предварительная</strong>. Лимиты считаются после подстановки демонстрационных данных. При превышении показывается предупреждение, текст не обрезается.</p>
+    <p>Markdown поддерживается в верхнем message.text. Title и description — обычный текст без Markdown и ручных переносов. `verticalLayout` сохраняется в структуре, но геометрию предпросмотра не меняет.</p>
+  </details>
+
+  <section class="toolbar" aria-label="Настройки просмотра">
+    <label class="screen-picker">Экран и состояние<select id="screen"></select></label>
+    <div class="segmented" aria-label="Версия макета">
+      <button id="mode-current" type="button" aria-pressed="false">Как сейчас</button>
+      <button id="mode-draft" type="button" aria-pressed="true">Предложение</button>
+      <button id="mode-compare" type="button" aria-pressed="false">Рядом</button>
+    </div>
+    <label class="toggle"><input id="outlines" type="checkbox" checked>Поля SDK</label>
+    <label class="toggle"><input id="interact" type="checkbox">Пощёлкать сценарий</label>
+    <label class="width-picker">Предпросмотр<select id="width"><option value="wide">Обычный</option><option value="narrow">Узкий · 390 px</option></select></label>
+    <button id="open-editor" type="button">Редактор</button>
+  </section>
+
+  <main class="workspace">
+    <section class="preview-column" aria-label="Предпросмотр сообщения">
+      <div class="screen-heading">
+        <div><h2 id="screen-title"></h2><div id="source" class="muted"></div></div>
+        <span id="screen-count" class="badge"></span>
+      </div>
+      <div id="note" class="notice" hidden></div>
+      <div id="preview"></div>
+      <div id="action-log" class="notice status-note" role="status" aria-live="polite">Включи «Пощёлкать сценарий», чтобы пройти демонстрационные переходы.</div>
+
+      <details class="technical" open>
+        <summary>Структура сообщения</summary>
+        <div class="segmented payload-tabs">
+          <button id="show-json" type="button" aria-pressed="true">SDK JSON</button>
+          <button id="show-text" type="button" aria-pressed="false">Текст с границами</button>
+          <button id="copy-payload" type="button">Скопировать</button>
+        </div>
+        <pre id="payload" aria-live="polite"></pre>
+      </details>
+
+      <details class="technical">
+        <summary>Каталог текстов и шаблонов</summary>
+        <p class="muted">Шаблоны общие для экранов предложения. Изменения исходника не затрагивают.</p>
+        <label>Ключ шаблона<select id="template-key"></select></label>
+        <label>Текст шаблона<textarea id="catalog-editor" rows="5" spellcheck="false"></textarea></label>
+        <button id="apply-template" type="button">Сохранить шаблон</button>
+        <div id="template-usage" class="muted"></div>
+      </details>
+    </section>
+
+    <aside id="editor" aria-label="Редактор выбранного элемента">
+      <button id="close-editor" type="button">Закрыть редактор</button>
+      <div class="editor-heading"><span class="eyebrow">ПРЕДЛОЖЕНИЕ</span><h2 id="selection-title">message.text</h2></div>
+      <p id="edit-hint" class="muted">Выбери текст, заголовок, описание или действие в предпросмотре.</p>
+      <label>Выбранное поле<textarea id="field-editor" rows="7" spellcheck="false"></textarea></label>
+      <div id="field-key" class="key"></div>
+      <div id="field-metrics" class="field-metrics"></div>
+      <p id="field-constraint" class="notice" hidden></p>
+      <label id="options-editor-wrap" hidden>Варианты выпадающего списка<textarea id="options-editor" rows="5" spellcheck="false"></textarea></label>
+      <div class="section-label">Порядок и раскладка</div>
+      <div class="small-actions"><button id="up" type="button">↑ Выше</button><button id="down" type="button">↓ Ниже</button></div>
+      <label class="toggle vertical-toggle"><input id="vertical" type="checkbox">verticalLayout · поле SDK</label>
+      <div class="section-label">Изменения экрана</div>
+      <div class="small-actions"><button id="save-field" type="button">Применить</button><button id="undo" type="button">Отменить</button></div>
+      <button id="baseline" type="button">Восстановить экран</button>
+      <label>Комментарий к экрану<textarea id="comment" rows="4" placeholder="Что изменить на этом экране…"></textarea></label>
+      <div id="save-status" class="muted" role="status"></div>
+    </aside>
+  </main>
+
+  <footer>Структура сообщения: message.text → groups[] → title / description / actions[]. Исходник доступен только для чтения; предложение хранится отдельно в этом браузере.</footer>
+
+  <dialog id="export-dialog" aria-labelledby="export-name">
+    <h2 id="export-name">Вариант JSON</h2>
+    <p>Экспорт содержит все экраны, тексты, порядок, `verticalLayout`, шаблоны и комментарии.</p>
+    <label>Данные<textarea id="export-content" rows="14" readonly spellcheck="false"></textarea></label>
+    <div class="small-actions"><button id="copy-export" type="button">Скопировать</button><button id="download-export" type="button">Скачать файл</button><button id="close-export" type="button">Закрыть</button></div>
+    <p id="export-status" role="status"></p>
+  </dialog>
+</body>
+</html>

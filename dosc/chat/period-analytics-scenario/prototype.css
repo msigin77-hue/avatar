@@ -1,0 +1,43 @@
+.settings-options { display: grid; gap: 10px; }
+.record-group { padding: 10px; border: 1px solid var(--line); border-radius: 9px; background: rgba(17, 21, 23, .24); }
+.record-group + .record-group { margin-top: 8px; }
+.record-group .group-topline { margin-bottom: 4px; }
+.record-title { min-width: 0; font-size: 13px; font-weight: 650; }
+.record-group .sdk-actions { margin-top: 8px; }
+.preview-version { overflow: hidden; }
+.compare .preview-version { min-width: 0; }
+.compare .version-title { position: sticky; top: 0; z-index: 1; padding: 5px 0; background: var(--bg); }
+.editor-open { overflow: hidden; }
+.editor-heading h2 { overflow-wrap: anywhere; }
+.vertical-toggle { margin: 10px 0; }
+.vertical-toggle input { flex: none; }
+.limit-warning { margin: 6px 0; padding: 7px 9px; border-left: 2px solid var(--warn); color: var(--warn); background: #e8c78d0c; font-size: 11px; }
+.action-button:focus-visible, .select-mock:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chat.no-outlines .sdk-group { border-top-color: transparent; }
+.chat.no-outlines .sdk-label, .chat.no-outlines .action-tag, .chat.no-outlines .drag-handle { display: none; }
+.chat.no-outlines .group-title:empty, .chat.no-outlines .group-description:empty { display: none; }
+.message-field:empty, .group-field:empty { display: none; }
+.drag-handle { flex: none; }
+.field-constraint[hidden] { display: none; }
+.toolbar select, .screen-picker select { min-height: 38px; }
+#save-status { min-height: 18px; margin-top: 6px; }
+#payload { min-height: 130px; }
+#payload.text-payload { font-family: "Segoe UI", Arial, sans-serif; }
+#comment { min-height: 90px; }
+#options-editor { min-height: 95px; }
+#open-editor, #close-editor { display: none; }
+
+@media (max-width: 960px) {
+  #open-editor, #close-editor { display: block; }
+  #close-editor { position: sticky; top: 0; }
+}
+
+@media (max-width: 620px) {
+  .sdk-actions { flex-direction: column; }
+  .sdk-action { flex-basis: auto; width: 100%; }
+  .file-card { grid-template-columns: 38px minmax(0, 1fr); align-items: start; }
+  .file-icon { grid-column: 1; grid-row: 1 / span 2; }
+  .file-meta { grid-column: 2; grid-row: 1; }
+  .file-card .sdk-action.is-attachment { grid-column: 2; grid-row: 2; justify-self: start; }
+  .sdk-group { padding-inline: 0; }
+}

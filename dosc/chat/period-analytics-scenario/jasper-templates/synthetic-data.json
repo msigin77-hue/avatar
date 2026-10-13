@@ -1,0 +1,4805 @@
+{
+  "description": "Только синтетические данные для проверки макета; не реальные обращения.",
+  "examples": [
+    {
+      "detailType": "month",
+      "periodCount": 9,
+      "slides": [
+        {
+          "kind": "toxic",
+          "slideTitle": "Жалобы",
+          "productName": "ОМС",
+          "productPeriodCaption": "ОМС · доли тематик за сентябрь 2026",
+          "lastMonthTotalText": "Всего за сентябрь 2026: 985 обращений",
+          "reportPeriodText": "Январь — сентябрь 2026",
+          "periodTypeLabel": "Месяц",
+          "pieSlices": [
+            {
+              "topicName": "Списание средств",
+              "count": 320,
+              "shareLabel": "32%",
+              "legendLabel": "Списание средств · 320 · 32%"
+            },
+            {
+              "topicName": "Переводы",
+              "count": 260,
+              "shareLabel": "26%",
+              "legendLabel": "Переводы · 260 · 26%"
+            },
+            {
+              "topicName": "Комиссии",
+              "count": 185,
+              "shareLabel": "19%",
+              "legendLabel": "Комиссии · 185 · 19%"
+            },
+            {
+              "topicName": "Приложение",
+              "count": 140,
+              "shareLabel": "14%",
+              "legendLabel": "Приложение · 140 · 14%"
+            },
+            {
+              "topicName": "Прочее",
+              "count": 80,
+              "shareLabel": "8%",
+              "legendLabel": "Прочее · 80 · 8%"
+            }
+          ],
+          "trendPointsByTopic": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Списание средств",
+              "value": 80,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Переводы",
+              "value": 114,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Комиссии",
+              "value": 148,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Приложение",
+              "value": 182,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Прочее",
+              "value": 216,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Списание средств",
+              "value": 97,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Переводы",
+              "value": 131,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Комиссии",
+              "value": 165,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Приложение",
+              "value": 199,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Прочее",
+              "value": 179,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Списание средств",
+              "value": 114,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Переводы",
+              "value": 148,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Комиссии",
+              "value": 128,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Приложение",
+              "value": 162,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Прочее",
+              "value": 196,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Списание средств",
+              "value": 131,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Переводы",
+              "value": 111,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Комиссии",
+              "value": 145,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Приложение",
+              "value": 179,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Прочее",
+              "value": 213,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Списание средств",
+              "value": 94,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Переводы",
+              "value": 128,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Комиссии",
+              "value": 162,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Приложение",
+              "value": 196,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Прочее",
+              "value": 176,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Списание средств",
+              "value": 111,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Переводы",
+              "value": 145,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Комиссии",
+              "value": 179,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Приложение",
+              "value": 159,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Прочее",
+              "value": 193,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Списание средств",
+              "value": 128,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Переводы",
+              "value": 108,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Комиссии",
+              "value": 142,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Приложение",
+              "value": 176,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Прочее",
+              "value": 210,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Списание средств",
+              "value": 91,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Переводы",
+              "value": 125,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Комиссии",
+              "value": 159,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Приложение",
+              "value": 193,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Прочее",
+              "value": 173,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Списание средств",
+              "value": 108,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Переводы",
+              "value": 142,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Комиссии",
+              "value": 176,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Приложение",
+              "value": 156,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Прочее",
+              "value": 190,
+              "periodTotal": 772
+            }
+          ],
+          "trendPointsAggregate": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Все обращения",
+              "value": 740,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Все обращения",
+              "value": 771,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Все обращения",
+              "value": 748,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Все обращения",
+              "value": 779,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Все обращения",
+              "value": 756,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Все обращения",
+              "value": 787,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Все обращения",
+              "value": 764,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Все обращения",
+              "value": 741,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Все обращения",
+              "value": 772,
+              "periodTotal": 772
+            }
+          ],
+          "topSubtopics": [
+            {
+              "rank": 1,
+              "text": "Отсутствие информации о наличии в отделении",
+              "count": 99,
+              "sharePercent": 10,
+              "measure": "Анализ наличия слитков в ВСП"
+            },
+            {
+              "rank": 2,
+              "text": "Отсутствие нужного продукта в офисе",
+              "count": 73,
+              "sharePercent": 7,
+              "measure": "Анализ обращений"
+            },
+            {
+              "rank": 3,
+              "text": "Непонятные условия обслуживания",
+              "count": 41,
+              "sharePercent": 4,
+              "measure": "Загрузка информации в Гигапоиск СБОЛ по тематике"
+            }
+          ],
+          "pageLabel": "1 / 2"
+        },
+        {
+          "kind": "consultation",
+          "slideTitle": "Консультации",
+          "productName": "ОМС",
+          "productPeriodCaption": "ОМС · доли тематик за сентябрь 2026",
+          "lastMonthTotalText": "Всего за сентябрь 2026: 780 обращений",
+          "reportPeriodText": "Январь — сентябрь 2026",
+          "periodTypeLabel": "Месяц",
+          "pieSlices": [
+            {
+              "topicName": "Карты и счета",
+              "count": 220,
+              "shareLabel": "28%",
+              "legendLabel": "Карты и счета · 220 · 28%"
+            },
+            {
+              "topicName": "Переводы",
+              "count": 190,
+              "shareLabel": "24%",
+              "legendLabel": "Переводы · 190 · 24%"
+            },
+            {
+              "topicName": "Вклады",
+              "count": 150,
+              "shareLabel": "19%",
+              "legendLabel": "Вклады · 150 · 19%"
+            },
+            {
+              "topicName": "Бонусы",
+              "count": 120,
+              "shareLabel": "15%",
+              "legendLabel": "Бонусы · 120 · 15%"
+            },
+            {
+              "topicName": "Прочее",
+              "count": 100,
+              "shareLabel": "13%",
+              "legendLabel": "Прочее · 100 · 13%"
+            }
+          ],
+          "trendPointsByTopic": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Карты и счета",
+              "value": 80,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Переводы",
+              "value": 114,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Вклады",
+              "value": 148,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Бонусы",
+              "value": 182,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Прочее",
+              "value": 216,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Карты и счета",
+              "value": 97,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Переводы",
+              "value": 131,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Вклады",
+              "value": 165,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Бонусы",
+              "value": 199,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Прочее",
+              "value": 179,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Карты и счета",
+              "value": 114,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Переводы",
+              "value": 148,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Вклады",
+              "value": 128,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Бонусы",
+              "value": 162,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Прочее",
+              "value": 196,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Карты и счета",
+              "value": 131,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Переводы",
+              "value": 111,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Вклады",
+              "value": 145,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Бонусы",
+              "value": 179,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Прочее",
+              "value": 213,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Карты и счета",
+              "value": 94,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Переводы",
+              "value": 128,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Вклады",
+              "value": 162,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Бонусы",
+              "value": 196,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Прочее",
+              "value": 176,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Карты и счета",
+              "value": 111,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Переводы",
+              "value": 145,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Вклады",
+              "value": 179,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Бонусы",
+              "value": 159,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Прочее",
+              "value": 193,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Карты и счета",
+              "value": 128,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Переводы",
+              "value": 108,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Вклады",
+              "value": 142,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Бонусы",
+              "value": 176,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Прочее",
+              "value": 210,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Карты и счета",
+              "value": 91,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Переводы",
+              "value": 125,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Вклады",
+              "value": 159,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Бонусы",
+              "value": 193,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Прочее",
+              "value": 173,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Карты и счета",
+              "value": 108,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Переводы",
+              "value": 142,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Вклады",
+              "value": 176,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Бонусы",
+              "value": 156,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Прочее",
+              "value": 190,
+              "periodTotal": 772
+            }
+          ],
+          "trendPointsAggregate": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "янв",
+              "seriesName": "Все обращения",
+              "value": 740,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "фев",
+              "seriesName": "Все обращения",
+              "value": 771,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "мар",
+              "seriesName": "Все обращения",
+              "value": 748,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "апр",
+              "seriesName": "Все обращения",
+              "value": 779,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "май",
+              "seriesName": "Все обращения",
+              "value": 756,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "июн",
+              "seriesName": "Все обращения",
+              "value": 787,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "июл",
+              "seriesName": "Все обращения",
+              "value": 764,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "авг",
+              "seriesName": "Все обращения",
+              "value": 741,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "сен",
+              "seriesName": "Все обращения",
+              "value": 772,
+              "periodTotal": 772
+            }
+          ],
+          "topSubtopics": [
+            {
+              "rank": 1,
+              "text": "Отсутствие информации о наличии в отделении",
+              "count": 99,
+              "sharePercent": 10,
+              "measure": "Анализ наличия слитков в ВСП"
+            },
+            {
+              "rank": 2,
+              "text": "Отсутствие нужного продукта в офисе",
+              "count": 73,
+              "sharePercent": 7,
+              "measure": "Анализ обращений"
+            },
+            {
+              "rank": 3,
+              "text": "Непонятные условия обслуживания",
+              "count": 41,
+              "sharePercent": 4,
+              "measure": "Загрузка информации в Гигапоиск СБОЛ по тематике"
+            }
+          ],
+          "pageLabel": "2 / 2"
+        }
+      ]
+    },
+    {
+      "detailType": "week",
+      "periodCount": 13,
+      "slides": [
+        {
+          "kind": "toxic",
+          "slideTitle": "Жалобы",
+          "productName": "ОМС",
+          "productPeriodCaption": "ОМС · доли тематик за сентябрь 2026",
+          "lastMonthTotalText": "Всего за сентябрь 2026: 985 обращений",
+          "reportPeriodText": "06.07.2026 — 04.10.2026",
+          "periodTypeLabel": "Неделя",
+          "pieSlices": [
+            {
+              "topicName": "Списание средств",
+              "count": 320,
+              "shareLabel": "32%",
+              "legendLabel": "Списание средств · 320 · 32%"
+            },
+            {
+              "topicName": "Переводы",
+              "count": 260,
+              "shareLabel": "26%",
+              "legendLabel": "Переводы · 260 · 26%"
+            },
+            {
+              "topicName": "Комиссии",
+              "count": 185,
+              "shareLabel": "19%",
+              "legendLabel": "Комиссии · 185 · 19%"
+            },
+            {
+              "topicName": "Приложение",
+              "count": 140,
+              "shareLabel": "14%",
+              "legendLabel": "Приложение · 140 · 14%"
+            },
+            {
+              "topicName": "Прочее",
+              "count": 80,
+              "shareLabel": "8%",
+              "legendLabel": "Прочее · 80 · 8%"
+            }
+          ],
+          "trendPointsByTopic": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Списание средств",
+              "value": 80,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Переводы",
+              "value": 114,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Комиссии",
+              "value": 148,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Приложение",
+              "value": 182,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Прочее",
+              "value": 216,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Списание средств",
+              "value": 97,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Переводы",
+              "value": 131,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Комиссии",
+              "value": 165,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Приложение",
+              "value": 199,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Прочее",
+              "value": 179,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Списание средств",
+              "value": 114,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Переводы",
+              "value": 148,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Комиссии",
+              "value": 128,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Приложение",
+              "value": 162,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Прочее",
+              "value": 196,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Списание средств",
+              "value": 131,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Переводы",
+              "value": 111,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Комиссии",
+              "value": 145,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Приложение",
+              "value": 179,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Прочее",
+              "value": 213,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Списание средств",
+              "value": 94,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Переводы",
+              "value": 128,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Комиссии",
+              "value": 162,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Приложение",
+              "value": 196,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Прочее",
+              "value": 176,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Списание средств",
+              "value": 111,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Переводы",
+              "value": 145,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Комиссии",
+              "value": 179,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Приложение",
+              "value": 159,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Прочее",
+              "value": 193,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Списание средств",
+              "value": 128,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Переводы",
+              "value": 108,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Комиссии",
+              "value": 142,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Приложение",
+              "value": 176,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Прочее",
+              "value": 210,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Списание средств",
+              "value": 91,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Переводы",
+              "value": 125,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Комиссии",
+              "value": 159,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Приложение",
+              "value": 193,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Прочее",
+              "value": 173,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Списание средств",
+              "value": 108,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Переводы",
+              "value": 142,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Комиссии",
+              "value": 176,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Приложение",
+              "value": 156,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Прочее",
+              "value": 190,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Списание средств",
+              "value": 125,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Переводы",
+              "value": 105,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Комиссии",
+              "value": 139,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Приложение",
+              "value": 173,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Прочее",
+              "value": 207,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Списание средств",
+              "value": 88,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Переводы",
+              "value": 122,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Комиссии",
+              "value": 156,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Приложение",
+              "value": 190,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Прочее",
+              "value": 224,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Списание средств",
+              "value": 105,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Переводы",
+              "value": 139,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Комиссии",
+              "value": 173,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Приложение",
+              "value": 153,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Прочее",
+              "value": 187,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Списание средств",
+              "value": 122,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Переводы",
+              "value": 156,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Комиссии",
+              "value": 136,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Приложение",
+              "value": 170,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Прочее",
+              "value": 204,
+              "periodTotal": 788
+            }
+          ],
+          "trendPointsAggregate": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Все обращения",
+              "value": 740,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Все обращения",
+              "value": 771,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Все обращения",
+              "value": 748,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Все обращения",
+              "value": 779,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Все обращения",
+              "value": 756,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Все обращения",
+              "value": 787,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Все обращения",
+              "value": 764,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Все обращения",
+              "value": 741,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Все обращения",
+              "value": 772,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Все обращения",
+              "value": 749,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Все обращения",
+              "value": 780,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Все обращения",
+              "value": 757,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Все обращения",
+              "value": 788,
+              "periodTotal": 788
+            }
+          ],
+          "topSubtopics": [
+            {
+              "rank": 1,
+              "text": "Отсутствие информации о наличии в отделении",
+              "count": 99,
+              "sharePercent": 10,
+              "measure": "Анализ наличия слитков в ВСП"
+            },
+            {
+              "rank": 2,
+              "text": "Отсутствие нужного продукта в офисе",
+              "count": 73,
+              "sharePercent": 7,
+              "measure": "Анализ обращений"
+            },
+            {
+              "rank": 3,
+              "text": "Непонятные условия обслуживания",
+              "count": 41,
+              "sharePercent": 4,
+              "measure": "Загрузка информации в Гигапоиск СБОЛ по тематике"
+            }
+          ],
+          "pageLabel": "1 / 2"
+        },
+        {
+          "kind": "consultation",
+          "slideTitle": "Консультации",
+          "productName": "ОМС",
+          "productPeriodCaption": "ОМС · доли тематик за сентябрь 2026",
+          "lastMonthTotalText": "Всего за сентябрь 2026: 780 обращений",
+          "reportPeriodText": "06.07.2026 — 04.10.2026",
+          "periodTypeLabel": "Неделя",
+          "pieSlices": [
+            {
+              "topicName": "Карты и счета",
+              "count": 220,
+              "shareLabel": "28%",
+              "legendLabel": "Карты и счета · 220 · 28%"
+            },
+            {
+              "topicName": "Переводы",
+              "count": 190,
+              "shareLabel": "24%",
+              "legendLabel": "Переводы · 190 · 24%"
+            },
+            {
+              "topicName": "Вклады",
+              "count": 150,
+              "shareLabel": "19%",
+              "legendLabel": "Вклады · 150 · 19%"
+            },
+            {
+              "topicName": "Бонусы",
+              "count": 120,
+              "shareLabel": "15%",
+              "legendLabel": "Бонусы · 120 · 15%"
+            },
+            {
+              "topicName": "Прочее",
+              "count": 100,
+              "shareLabel": "13%",
+              "legendLabel": "Прочее · 100 · 13%"
+            }
+          ],
+          "trendPointsByTopic": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Карты и счета",
+              "value": 80,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Переводы",
+              "value": 114,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Вклады",
+              "value": 148,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Бонусы",
+              "value": 182,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Прочее",
+              "value": 216,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Карты и счета",
+              "value": 97,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Переводы",
+              "value": 131,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Вклады",
+              "value": 165,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Бонусы",
+              "value": 199,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Прочее",
+              "value": 179,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Карты и счета",
+              "value": 114,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Переводы",
+              "value": 148,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Вклады",
+              "value": 128,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Бонусы",
+              "value": 162,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Прочее",
+              "value": 196,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Карты и счета",
+              "value": 131,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Переводы",
+              "value": 111,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Вклады",
+              "value": 145,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Бонусы",
+              "value": 179,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Прочее",
+              "value": 213,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Карты и счета",
+              "value": 94,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Переводы",
+              "value": 128,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Вклады",
+              "value": 162,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Бонусы",
+              "value": 196,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Прочее",
+              "value": 176,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Карты и счета",
+              "value": 111,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Переводы",
+              "value": 145,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Вклады",
+              "value": 179,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Бонусы",
+              "value": 159,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Прочее",
+              "value": 193,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Карты и счета",
+              "value": 128,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Переводы",
+              "value": 108,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Вклады",
+              "value": 142,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Бонусы",
+              "value": 176,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Прочее",
+              "value": 210,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Карты и счета",
+              "value": 91,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Переводы",
+              "value": 125,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Вклады",
+              "value": 159,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Бонусы",
+              "value": 193,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Прочее",
+              "value": 173,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Карты и счета",
+              "value": 108,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Переводы",
+              "value": 142,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Вклады",
+              "value": 176,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Бонусы",
+              "value": 156,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Прочее",
+              "value": 190,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Карты и счета",
+              "value": 125,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Переводы",
+              "value": 105,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Вклады",
+              "value": 139,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Бонусы",
+              "value": 173,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Прочее",
+              "value": 207,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Карты и счета",
+              "value": 88,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Переводы",
+              "value": 122,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Вклады",
+              "value": 156,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Бонусы",
+              "value": 190,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Прочее",
+              "value": 224,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Карты и счета",
+              "value": 105,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Переводы",
+              "value": 139,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Вклады",
+              "value": 173,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Бонусы",
+              "value": 153,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Прочее",
+              "value": 187,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Карты и счета",
+              "value": 122,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Переводы",
+              "value": 156,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Вклады",
+              "value": 136,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Бонусы",
+              "value": 170,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Прочее",
+              "value": 204,
+              "periodTotal": 788
+            }
+          ],
+          "trendPointsAggregate": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "06–12 июл",
+              "seriesName": "Все обращения",
+              "value": 740,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "13–19 июл",
+              "seriesName": "Все обращения",
+              "value": 771,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "20–26 июл",
+              "seriesName": "Все обращения",
+              "value": 748,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "27–02 июл",
+              "seriesName": "Все обращения",
+              "value": 779,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "03–09 авг",
+              "seriesName": "Все обращения",
+              "value": 756,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "10–16 авг",
+              "seriesName": "Все обращения",
+              "value": 787,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "17–23 авг",
+              "seriesName": "Все обращения",
+              "value": 764,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "24–30 авг",
+              "seriesName": "Все обращения",
+              "value": 741,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "31–06 авг",
+              "seriesName": "Все обращения",
+              "value": 772,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "07–13 сен",
+              "seriesName": "Все обращения",
+              "value": 749,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "14–20 сен",
+              "seriesName": "Все обращения",
+              "value": 780,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "21–27 сен",
+              "seriesName": "Все обращения",
+              "value": 757,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "28–04 сен",
+              "seriesName": "Все обращения",
+              "value": 788,
+              "periodTotal": 788
+            }
+          ],
+          "topSubtopics": [
+            {
+              "rank": 1,
+              "text": "Отсутствие информации о наличии в отделении",
+              "count": 99,
+              "sharePercent": 10,
+              "measure": "Анализ наличия слитков в ВСП"
+            },
+            {
+              "rank": 2,
+              "text": "Отсутствие нужного продукта в офисе",
+              "count": 73,
+              "sharePercent": 7,
+              "measure": "Анализ обращений"
+            },
+            {
+              "rank": 3,
+              "text": "Непонятные условия обслуживания",
+              "count": 41,
+              "sharePercent": 4,
+              "measure": "Загрузка информации в Гигапоиск СБОЛ по тематике"
+            }
+          ],
+          "pageLabel": "2 / 2"
+        }
+      ]
+    },
+    {
+      "detailType": "day",
+      "periodCount": 30,
+      "slides": [
+        {
+          "kind": "toxic",
+          "slideTitle": "Жалобы",
+          "productName": "ОМС",
+          "productPeriodCaption": "ОМС · доли тематик за сентябрь 2026",
+          "lastMonthTotalText": "Всего за сентябрь 2026: 985 обращений",
+          "reportPeriodText": "01.09.2026 — 30.09.2026",
+          "periodTypeLabel": "День",
+          "pieSlices": [
+            {
+              "topicName": "Списание средств",
+              "count": 320,
+              "shareLabel": "32%",
+              "legendLabel": "Списание средств · 320 · 32%"
+            },
+            {
+              "topicName": "Переводы",
+              "count": 260,
+              "shareLabel": "26%",
+              "legendLabel": "Переводы · 260 · 26%"
+            },
+            {
+              "topicName": "Комиссии",
+              "count": 185,
+              "shareLabel": "19%",
+              "legendLabel": "Комиссии · 185 · 19%"
+            },
+            {
+              "topicName": "Приложение",
+              "count": 140,
+              "shareLabel": "14%",
+              "legendLabel": "Приложение · 140 · 14%"
+            },
+            {
+              "topicName": "Прочее",
+              "count": 80,
+              "shareLabel": "8%",
+              "legendLabel": "Прочее · 80 · 8%"
+            }
+          ],
+          "trendPointsByTopic": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Списание средств",
+              "value": 80,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Переводы",
+              "value": 114,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Комиссии",
+              "value": 148,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Приложение",
+              "value": 182,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Прочее",
+              "value": 216,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Списание средств",
+              "value": 97,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Переводы",
+              "value": 131,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Комиссии",
+              "value": 165,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Приложение",
+              "value": 199,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Прочее",
+              "value": 179,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Списание средств",
+              "value": 114,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Переводы",
+              "value": 148,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Комиссии",
+              "value": 128,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Приложение",
+              "value": 162,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Прочее",
+              "value": 196,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Списание средств",
+              "value": 131,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Переводы",
+              "value": 111,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Комиссии",
+              "value": 145,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Приложение",
+              "value": 179,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Прочее",
+              "value": 213,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Списание средств",
+              "value": 94,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Переводы",
+              "value": 128,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Комиссии",
+              "value": 162,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Приложение",
+              "value": 196,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Прочее",
+              "value": 176,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Списание средств",
+              "value": 111,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Переводы",
+              "value": 145,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Комиссии",
+              "value": 179,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Приложение",
+              "value": 159,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Прочее",
+              "value": 193,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Списание средств",
+              "value": 128,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Переводы",
+              "value": 108,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Комиссии",
+              "value": 142,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Приложение",
+              "value": 176,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Прочее",
+              "value": 210,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Списание средств",
+              "value": 91,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Переводы",
+              "value": 125,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Комиссии",
+              "value": 159,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Приложение",
+              "value": 193,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Прочее",
+              "value": 173,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Списание средств",
+              "value": 108,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Переводы",
+              "value": 142,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Комиссии",
+              "value": 176,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Приложение",
+              "value": 156,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Прочее",
+              "value": 190,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Списание средств",
+              "value": 125,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Переводы",
+              "value": 105,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Комиссии",
+              "value": 139,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Приложение",
+              "value": 173,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Прочее",
+              "value": 207,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Списание средств",
+              "value": 88,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Переводы",
+              "value": 122,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Комиссии",
+              "value": 156,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Приложение",
+              "value": 190,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Прочее",
+              "value": 224,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Списание средств",
+              "value": 105,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Переводы",
+              "value": 139,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Комиссии",
+              "value": 173,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Приложение",
+              "value": 153,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Прочее",
+              "value": 187,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Списание средств",
+              "value": 122,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Переводы",
+              "value": 156,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Комиссии",
+              "value": 136,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Приложение",
+              "value": 170,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Прочее",
+              "value": 204,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Списание средств",
+              "value": 85,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Переводы",
+              "value": 119,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Комиссии",
+              "value": 153,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Приложение",
+              "value": 187,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Прочее",
+              "value": 221,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Списание средств",
+              "value": 102,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Переводы",
+              "value": 136,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Комиссии",
+              "value": 170,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Приложение",
+              "value": 150,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Прочее",
+              "value": 184,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Списание средств",
+              "value": 119,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Переводы",
+              "value": 153,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Комиссии",
+              "value": 133,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Приложение",
+              "value": 167,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Прочее",
+              "value": 201,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Списание средств",
+              "value": 82,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Переводы",
+              "value": 116,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Комиссии",
+              "value": 150,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Приложение",
+              "value": 184,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Прочее",
+              "value": 218,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Списание средств",
+              "value": 99,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Переводы",
+              "value": 133,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Комиссии",
+              "value": 167,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Приложение",
+              "value": 201,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Прочее",
+              "value": 181,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Списание средств",
+              "value": 116,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Переводы",
+              "value": 150,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Комиссии",
+              "value": 130,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Приложение",
+              "value": 164,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Прочее",
+              "value": 198,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Списание средств",
+              "value": 133,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Переводы",
+              "value": 113,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Комиссии",
+              "value": 147,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Приложение",
+              "value": 181,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Прочее",
+              "value": 215,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Списание средств",
+              "value": 96,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Переводы",
+              "value": 130,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Комиссии",
+              "value": 164,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Приложение",
+              "value": 198,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Прочее",
+              "value": 178,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Списание средств",
+              "value": 113,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Переводы",
+              "value": 147,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Комиссии",
+              "value": 127,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Приложение",
+              "value": 161,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Прочее",
+              "value": 195,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Списание средств",
+              "value": 130,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Переводы",
+              "value": 110,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Комиссии",
+              "value": 144,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Приложение",
+              "value": 178,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Прочее",
+              "value": 212,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Списание средств",
+              "value": 93,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Переводы",
+              "value": 127,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Комиссии",
+              "value": 161,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Приложение",
+              "value": 195,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Прочее",
+              "value": 175,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Списание средств",
+              "value": 110,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Переводы",
+              "value": 144,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Комиссии",
+              "value": 178,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Приложение",
+              "value": 158,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Прочее",
+              "value": 192,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Списание средств",
+              "value": 127,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Переводы",
+              "value": 107,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Комиссии",
+              "value": 141,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Приложение",
+              "value": 175,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Прочее",
+              "value": 209,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Списание средств",
+              "value": 90,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Переводы",
+              "value": 124,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Комиссии",
+              "value": 158,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Приложение",
+              "value": 192,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Прочее",
+              "value": 172,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Списание средств",
+              "value": 107,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Переводы",
+              "value": 141,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Комиссии",
+              "value": 175,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Приложение",
+              "value": 155,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Прочее",
+              "value": 189,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Списание средств",
+              "value": 124,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Переводы",
+              "value": 104,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Комиссии",
+              "value": 138,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Приложение",
+              "value": 172,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Прочее",
+              "value": 206,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Списание средств",
+              "value": 87,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Переводы",
+              "value": 121,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Комиссии",
+              "value": 155,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Приложение",
+              "value": 189,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Прочее",
+              "value": 223,
+              "periodTotal": 775
+            }
+          ],
+          "trendPointsAggregate": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Все обращения",
+              "value": 740,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Все обращения",
+              "value": 771,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Все обращения",
+              "value": 748,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Все обращения",
+              "value": 779,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Все обращения",
+              "value": 756,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Все обращения",
+              "value": 787,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Все обращения",
+              "value": 764,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Все обращения",
+              "value": 741,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Все обращения",
+              "value": 772,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Все обращения",
+              "value": 749,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Все обращения",
+              "value": 780,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Все обращения",
+              "value": 757,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Все обращения",
+              "value": 788,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Все обращения",
+              "value": 765,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Все обращения",
+              "value": 742,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Все обращения",
+              "value": 773,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Все обращения",
+              "value": 750,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Все обращения",
+              "value": 781,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Все обращения",
+              "value": 758,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Все обращения",
+              "value": 789,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Все обращения",
+              "value": 766,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Все обращения",
+              "value": 743,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Все обращения",
+              "value": 774,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Все обращения",
+              "value": 751,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Все обращения",
+              "value": 782,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Все обращения",
+              "value": 759,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Все обращения",
+              "value": 736,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Все обращения",
+              "value": 767,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Все обращения",
+              "value": 744,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Все обращения",
+              "value": 775,
+              "periodTotal": 775
+            }
+          ],
+          "topSubtopics": [
+            {
+              "rank": 1,
+              "text": "Отсутствие информации о наличии в отделении",
+              "count": 99,
+              "sharePercent": 10,
+              "measure": "Анализ наличия слитков в ВСП"
+            },
+            {
+              "rank": 2,
+              "text": "Отсутствие нужного продукта в офисе",
+              "count": 73,
+              "sharePercent": 7,
+              "measure": "Анализ обращений"
+            },
+            {
+              "rank": 3,
+              "text": "Непонятные условия обслуживания",
+              "count": 41,
+              "sharePercent": 4,
+              "measure": "Загрузка информации в Гигапоиск СБОЛ по тематике"
+            }
+          ],
+          "pageLabel": "1 / 2"
+        },
+        {
+          "kind": "consultation",
+          "slideTitle": "Консультации",
+          "productName": "ОМС",
+          "productPeriodCaption": "ОМС · доли тематик за сентябрь 2026",
+          "lastMonthTotalText": "Всего за сентябрь 2026: 780 обращений",
+          "reportPeriodText": "01.09.2026 — 30.09.2026",
+          "periodTypeLabel": "День",
+          "pieSlices": [
+            {
+              "topicName": "Карты и счета",
+              "count": 220,
+              "shareLabel": "28%",
+              "legendLabel": "Карты и счета · 220 · 28%"
+            },
+            {
+              "topicName": "Переводы",
+              "count": 190,
+              "shareLabel": "24%",
+              "legendLabel": "Переводы · 190 · 24%"
+            },
+            {
+              "topicName": "Вклады",
+              "count": 150,
+              "shareLabel": "19%",
+              "legendLabel": "Вклады · 150 · 19%"
+            },
+            {
+              "topicName": "Бонусы",
+              "count": 120,
+              "shareLabel": "15%",
+              "legendLabel": "Бонусы · 120 · 15%"
+            },
+            {
+              "topicName": "Прочее",
+              "count": 100,
+              "shareLabel": "13%",
+              "legendLabel": "Прочее · 100 · 13%"
+            }
+          ],
+          "trendPointsByTopic": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Карты и счета",
+              "value": 80,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Переводы",
+              "value": 114,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Вклады",
+              "value": 148,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Бонусы",
+              "value": 182,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Прочее",
+              "value": 216,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Карты и счета",
+              "value": 97,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Переводы",
+              "value": 131,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Вклады",
+              "value": 165,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Бонусы",
+              "value": 199,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Прочее",
+              "value": 179,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Карты и счета",
+              "value": 114,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Переводы",
+              "value": 148,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Вклады",
+              "value": 128,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Бонусы",
+              "value": 162,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Прочее",
+              "value": 196,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Карты и счета",
+              "value": 131,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Переводы",
+              "value": 111,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Вклады",
+              "value": 145,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Бонусы",
+              "value": 179,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Прочее",
+              "value": 213,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Карты и счета",
+              "value": 94,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Переводы",
+              "value": 128,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Вклады",
+              "value": 162,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Бонусы",
+              "value": 196,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Прочее",
+              "value": 176,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Карты и счета",
+              "value": 111,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Переводы",
+              "value": 145,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Вклады",
+              "value": 179,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Бонусы",
+              "value": 159,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Прочее",
+              "value": 193,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Карты и счета",
+              "value": 128,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Переводы",
+              "value": 108,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Вклады",
+              "value": 142,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Бонусы",
+              "value": 176,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Прочее",
+              "value": 210,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Карты и счета",
+              "value": 91,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Переводы",
+              "value": 125,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Вклады",
+              "value": 159,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Бонусы",
+              "value": 193,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Прочее",
+              "value": 173,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Карты и счета",
+              "value": 108,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Переводы",
+              "value": 142,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Вклады",
+              "value": 176,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Бонусы",
+              "value": 156,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Прочее",
+              "value": 190,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Карты и счета",
+              "value": 125,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Переводы",
+              "value": 105,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Вклады",
+              "value": 139,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Бонусы",
+              "value": 173,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Прочее",
+              "value": 207,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Карты и счета",
+              "value": 88,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Переводы",
+              "value": 122,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Вклады",
+              "value": 156,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Бонусы",
+              "value": 190,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Прочее",
+              "value": 224,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Карты и счета",
+              "value": 105,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Переводы",
+              "value": 139,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Вклады",
+              "value": 173,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Бонусы",
+              "value": 153,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Прочее",
+              "value": 187,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Карты и счета",
+              "value": 122,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Переводы",
+              "value": 156,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Вклады",
+              "value": 136,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Бонусы",
+              "value": 170,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Прочее",
+              "value": 204,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Карты и счета",
+              "value": 85,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Переводы",
+              "value": 119,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Вклады",
+              "value": 153,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Бонусы",
+              "value": 187,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Прочее",
+              "value": 221,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Карты и счета",
+              "value": 102,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Переводы",
+              "value": 136,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Вклады",
+              "value": 170,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Бонусы",
+              "value": 150,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Прочее",
+              "value": 184,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Карты и счета",
+              "value": 119,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Переводы",
+              "value": 153,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Вклады",
+              "value": 133,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Бонусы",
+              "value": 167,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Прочее",
+              "value": 201,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Карты и счета",
+              "value": 82,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Переводы",
+              "value": 116,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Вклады",
+              "value": 150,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Бонусы",
+              "value": 184,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Прочее",
+              "value": 218,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Карты и счета",
+              "value": 99,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Переводы",
+              "value": 133,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Вклады",
+              "value": 167,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Бонусы",
+              "value": 201,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Прочее",
+              "value": 181,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Карты и счета",
+              "value": 116,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Переводы",
+              "value": 150,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Вклады",
+              "value": 130,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Бонусы",
+              "value": 164,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Прочее",
+              "value": 198,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Карты и счета",
+              "value": 133,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Переводы",
+              "value": 113,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Вклады",
+              "value": 147,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Бонусы",
+              "value": 181,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Прочее",
+              "value": 215,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Карты и счета",
+              "value": 96,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Переводы",
+              "value": 130,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Вклады",
+              "value": 164,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Бонусы",
+              "value": 198,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Прочее",
+              "value": 178,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Карты и счета",
+              "value": 113,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Переводы",
+              "value": 147,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Вклады",
+              "value": 127,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Бонусы",
+              "value": 161,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Прочее",
+              "value": 195,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Карты и счета",
+              "value": 130,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Переводы",
+              "value": 110,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Вклады",
+              "value": 144,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Бонусы",
+              "value": 178,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Прочее",
+              "value": 212,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Карты и счета",
+              "value": 93,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Переводы",
+              "value": 127,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Вклады",
+              "value": 161,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Бонусы",
+              "value": 195,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Прочее",
+              "value": 175,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Карты и счета",
+              "value": 110,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Переводы",
+              "value": 144,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Вклады",
+              "value": 178,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Бонусы",
+              "value": 158,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Прочее",
+              "value": 192,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Карты и счета",
+              "value": 127,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Переводы",
+              "value": 107,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Вклады",
+              "value": 141,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Бонусы",
+              "value": 175,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Прочее",
+              "value": 209,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Карты и счета",
+              "value": 90,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Переводы",
+              "value": 124,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Вклады",
+              "value": 158,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Бонусы",
+              "value": 192,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Прочее",
+              "value": 172,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Карты и счета",
+              "value": 107,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Переводы",
+              "value": 141,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Вклады",
+              "value": 175,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Бонусы",
+              "value": 155,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Прочее",
+              "value": 189,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Карты и счета",
+              "value": 124,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Переводы",
+              "value": 104,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Вклады",
+              "value": 138,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Бонусы",
+              "value": 172,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Прочее",
+              "value": 206,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Карты и счета",
+              "value": 87,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Переводы",
+              "value": 121,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Вклады",
+              "value": 155,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Бонусы",
+              "value": 189,
+              "periodTotal": 775
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Прочее",
+              "value": 223,
+              "periodTotal": 775
+            }
+          ],
+          "trendPointsAggregate": [
+            {
+              "periodOrder": 0,
+              "periodLabel": "01",
+              "seriesName": "Все обращения",
+              "value": 740,
+              "periodTotal": 740
+            },
+            {
+              "periodOrder": 1,
+              "periodLabel": "02",
+              "seriesName": "Все обращения",
+              "value": 771,
+              "periodTotal": 771
+            },
+            {
+              "periodOrder": 2,
+              "periodLabel": "03",
+              "seriesName": "Все обращения",
+              "value": 748,
+              "periodTotal": 748
+            },
+            {
+              "periodOrder": 3,
+              "periodLabel": "04",
+              "seriesName": "Все обращения",
+              "value": 779,
+              "periodTotal": 779
+            },
+            {
+              "periodOrder": 4,
+              "periodLabel": "05",
+              "seriesName": "Все обращения",
+              "value": 756,
+              "periodTotal": 756
+            },
+            {
+              "periodOrder": 5,
+              "periodLabel": "06",
+              "seriesName": "Все обращения",
+              "value": 787,
+              "periodTotal": 787
+            },
+            {
+              "periodOrder": 6,
+              "periodLabel": "07",
+              "seriesName": "Все обращения",
+              "value": 764,
+              "periodTotal": 764
+            },
+            {
+              "periodOrder": 7,
+              "periodLabel": "08",
+              "seriesName": "Все обращения",
+              "value": 741,
+              "periodTotal": 741
+            },
+            {
+              "periodOrder": 8,
+              "periodLabel": "09",
+              "seriesName": "Все обращения",
+              "value": 772,
+              "periodTotal": 772
+            },
+            {
+              "periodOrder": 9,
+              "periodLabel": "10",
+              "seriesName": "Все обращения",
+              "value": 749,
+              "periodTotal": 749
+            },
+            {
+              "periodOrder": 10,
+              "periodLabel": "11",
+              "seriesName": "Все обращения",
+              "value": 780,
+              "periodTotal": 780
+            },
+            {
+              "periodOrder": 11,
+              "periodLabel": "12",
+              "seriesName": "Все обращения",
+              "value": 757,
+              "periodTotal": 757
+            },
+            {
+              "periodOrder": 12,
+              "periodLabel": "13",
+              "seriesName": "Все обращения",
+              "value": 788,
+              "periodTotal": 788
+            },
+            {
+              "periodOrder": 13,
+              "periodLabel": "14",
+              "seriesName": "Все обращения",
+              "value": 765,
+              "periodTotal": 765
+            },
+            {
+              "periodOrder": 14,
+              "periodLabel": "15",
+              "seriesName": "Все обращения",
+              "value": 742,
+              "periodTotal": 742
+            },
+            {
+              "periodOrder": 15,
+              "periodLabel": "16",
+              "seriesName": "Все обращения",
+              "value": 773,
+              "periodTotal": 773
+            },
+            {
+              "periodOrder": 16,
+              "periodLabel": "17",
+              "seriesName": "Все обращения",
+              "value": 750,
+              "periodTotal": 750
+            },
+            {
+              "periodOrder": 17,
+              "periodLabel": "18",
+              "seriesName": "Все обращения",
+              "value": 781,
+              "periodTotal": 781
+            },
+            {
+              "periodOrder": 18,
+              "periodLabel": "19",
+              "seriesName": "Все обращения",
+              "value": 758,
+              "periodTotal": 758
+            },
+            {
+              "periodOrder": 19,
+              "periodLabel": "20",
+              "seriesName": "Все обращения",
+              "value": 789,
+              "periodTotal": 789
+            },
+            {
+              "periodOrder": 20,
+              "periodLabel": "21",
+              "seriesName": "Все обращения",
+              "value": 766,
+              "periodTotal": 766
+            },
+            {
+              "periodOrder": 21,
+              "periodLabel": "22",
+              "seriesName": "Все обращения",
+              "value": 743,
+              "periodTotal": 743
+            },
+            {
+              "periodOrder": 22,
+              "periodLabel": "23",
+              "seriesName": "Все обращения",
+              "value": 774,
+              "periodTotal": 774
+            },
+            {
+              "periodOrder": 23,
+              "periodLabel": "24",
+              "seriesName": "Все обращения",
+              "value": 751,
+              "periodTotal": 751
+            },
+            {
+              "periodOrder": 24,
+              "periodLabel": "25",
+              "seriesName": "Все обращения",
+              "value": 782,
+              "periodTotal": 782
+            },
+            {
+              "periodOrder": 25,
+              "periodLabel": "26",
+              "seriesName": "Все обращения",
+              "value": 759,
+              "periodTotal": 759
+            },
+            {
+              "periodOrder": 26,
+              "periodLabel": "27",
+              "seriesName": "Все обращения",
+              "value": 736,
+              "periodTotal": 736
+            },
+            {
+              "periodOrder": 27,
+              "periodLabel": "28",
+              "seriesName": "Все обращения",
+              "value": 767,
+              "periodTotal": 767
+            },
+            {
+              "periodOrder": 28,
+              "periodLabel": "29",
+              "seriesName": "Все обращения",
+              "value": 744,
+              "periodTotal": 744
+            },
+            {
+              "periodOrder": 29,
+              "periodLabel": "30",
+              "seriesName": "Все обращения",
+              "value": 775,
+              "periodTotal": 775
+            }
+          ],
+          "topSubtopics": [
+            {
+              "rank": 1,
+              "text": "Отсутствие информации о наличии в отделении",
+              "count": 99,
+              "sharePercent": 10,
+              "measure": "Анализ наличия слитков в ВСП"
+            },
+            {
+              "rank": 2,
+              "text": "Отсутствие нужного продукта в офисе",
+              "count": 73,
+              "sharePercent": 7,
+              "measure": "Анализ обращений"
+            },
+            {
+              "rank": 3,
+              "text": "Непонятные условия обслуживания",
+              "count": 41,
+              "sharePercent": 4,
+              "measure": "Загрузка информации в Гигапоиск СБОЛ по тематике"
+            }
+          ],
+          "pageLabel": "2 / 2"
+        }
+      ]
+    }
+  ]
+}
